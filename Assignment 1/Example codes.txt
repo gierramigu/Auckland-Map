@@ -1,0 +1,68 @@
+/**Example code from tutorial****/
+
+//public class Node {
+//    String nodeID;
+//    double x,y;
+//    List<Edge> outgoing;
+//    List<Edge> incoming;
+//}
+//
+//
+//public class Edge{
+//    String edgeID;
+//    double length;
+//    Node from;
+//    Node to;
+//
+//
+//}
+//
+//public class Graph {
+//    Map<String, Node> Nodes;
+//    List<Edge> edges;
+//    ArrayList<Edge>[][] adjMatrix;
+//}
+//
+//
+//public static void main {
+//    Node nodeA = new Node("A");
+//    Node nodeB = new Node ("B");
+//    Node nodeC = new Node("C");
+//    Node nodeD = new Node ("D");
+//
+//    Graph g = new Graph();
+//    g.nodes.put("A", nodeA);
+//    ..
+//
+//    Edge edgeA  = new Edge("a", A,B);
+//    g.edges.add(edgeA);
+//    Edge edgeB1 = new Edge ("b1", A,C);
+//    Edge edgeB2 = new Edge("b2", C,A);
+//    ...
+//    Edge edgeF = new Edge("f",C,C);
+//
+//    //how to link the nodes and the egdes below
+//
+//    for(Edge e; g.edges){
+//        Node from = e.from;  //grabing the two nodes of the edge
+//        Node to = e.to;   //grabbing the two nodes of the edge
+//
+//        //then add this edge into the outgoing edge list of the from and the incoming edge list of the to
+//
+//        from.outgoing.add(e);
+//        from.incoming.add(e);
+//        }
+//
+//        //
+//        for(Edge e; g.edges ){
+//            adjMatrix[e.from][e.to].add(e);
+//        }
+//
+//
+//        //if want to find the outgoing neighbours of one node
+//
+//        g.nodes.get(nodeID).getOutgoing();
+//
+//
+//
+//}
